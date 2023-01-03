@@ -1,0 +1,62 @@
+.container {
+  font-family: "Fragment Mono", monospace;
+  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  max-width: 100%;
+}
+.button {
+  color: #fff;
+  position: relative;
+  top: 20px;
+  right: 0;
+  background-color: transparent;
+  border-radius: 7px;
+  border: solid white;
+}
+#current-location-button {
+  color: #fff;
+  position: relative;
+  top: 20px;
+  right: 0;
+  background-color: #9993e2;
+  border-radius: 7px;
+  border: solid white;
+}
+.now {
+  font-size: 15px;
+}
+.type {
+  color: black;
+  position: relative;
+  top: 20px;
+  border: solid white;
+  border-radius: 7px;
+}
+ul {
+  margin-top: 70px;
+  padding: 0;
+  display: block;
+  list-style: none;
+  font-size: 12px;
+  line-height: 10px;
+}
+
+.days {
+  text-align: center;
+}
+.weather {
+  text-align: center;
+}
+.temperature {
+  text-align: center;
+}
+p {
+  font-size: small;
+}
